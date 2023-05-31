@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css"> <!-- Para quitar el formato generado por defecto por el navegador -->
+    <link rel="stylesheet" href="style.css">
+    <script src="js/funciones.js"></script>
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header class="headerPrincipal">
+        <div class="divPrincipal">
+            <h1><img class="logo_motoencrypter" src="images/logo_moto.png" alt="Logo de la barbería"></h1>
+        </div>
+    </header>
+    <main>
+        <form class="formPrincipal">
+            <div class="cuadroCentral">
+                <textarea id="textobase" class="txtAtextobase" placeholder="Ingrese el texto aquí"></textarea>
+                <p class="textoInformativo">*Solo letras minusculas y sin acentos*</p>
+                <div class="cuadrobaseInferior">
+                    <input type="button" class="btnEncriptar" onclick="encriptarTexto()" value="Encriptar">
+                    <input type="button" class="btnDescencriptar" onclick="desencriptarTexto()" value="Desencriptar">
+                </div>
+            </div>
+            <div class="cuadroLateral">
+                <textarea id="textosalida" class="txtAtextosalida" readonly
+                    placeholder="Ningún mensaje fue encontrado"></textarea>
+                <div class="cuadrobaseLateral">
+                    <input id="copiarTexto" type="button" class="btnCopiar" onclick="copytoclipboard()" value="Copiar">
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer class="footerPrincipal">
+        <div>
+            <ul class="productos">
+                <p class="copyright">&copy Copyright Jair Alan Moctezuma Leon - 2023</p>
+                <li><a href="https://linkedin.com/in/moctezumamex"><img class="imgVendor" src="images/linkedin.png"></img></a></li>
+                <li><a href="https://github.com/moctezumamex"><img class="imgVendor" src="images/github.png"></img></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,305 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(#FFFFFF, #BE0A18, #690812, #000000, #690812, #BE0A18, #FFFFFF);
+    width: auto;
+    height: auto;
+}
+
+.headerPrincipal {
+    width: 940px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.divPrincipal {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo_motoencrypter {
+    padding: 0px;
+    gap: 40px;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    left: 0px;
+    top: 5px;
+    filter: brightness(1.15);
+    mix-blend-mode: multiply;
+}
+
+.formPrincipal {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cuadroCentral {
+    /* display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 520px;
+    left: 50px;
+    top: 25px;
+
+    background-image: url(images/fonts/cyber.gif);
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: 2px solid #000000; */
+
+    display: inline-block;
+position: relative;
+width: 400px;
+height: 520px;
+left: 50px;
+top: -10px;
+background-image: url(images/fonts/cyber.gif);
+box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+border-radius: 32px;
+border: 2px solid #000000;
+}
+
+.cuadroCentral:hover {
+    box-shadow: 10px 10px 80px 5px #FFFFFF;
+    transition: 1000ms;
+}
+
+.txtAtextobase {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    left: 5%;
+    top: 5%;
+    border: none;
+    background-image: url(images/fonts/vertical.jpg);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #000000;
+    text-shadow: 2px 2px 10px red;
+    font-size: 18px;
+}
+
+.txtAtextobase::placeholder {
+    text-align: center;
+    color: #000000;
+    text-shadow: 2px 2px 10px red;
+    font-size: 18px;
+}
+
+.textoInformativo {
+    position: relative;
+    width: 340px;
+    left: 30px;
+    top: 40px;
+    color: #FFFFFF;
+    font-weight: bold;
+    text-shadow: 2px 2px 10px red;
+    font-size: 12px;
+}
+
+
+.cuadrobaseInferior {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: relative;
+    width: 200px;
+    height: 80px;
+    left: 50px;
+    top: 50px;
+}
+
+.btnEncriptar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 60%;
+    height: 60px;
+    background: #000000;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.btnEncriptar:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+.btnDescencriptar {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 60%;
+    height: 60px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+.btnDescencriptar:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+.cuadroLateral {
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    height: 520px;
+    left: 100px;
+    top: -30px;
+    background-image: url(images/fonts/giphy.gif);
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    border: 2px solid #000000;
+}
+
+.cuadroLateral:hover {
+    box-shadow: 10px 10px 80px 5px #FFFFFF;
+    transition: 1000ms;
+}
+
+.txtAtextosalida {
+    position: relative;
+    width: 90%;
+    height: 70%;
+    left: 5%;
+    top: 5%;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    background-image: url(images/fonts/giphy.gif);
+    color: #FFFFFF;
+    font-size: 18px;
+    text-shadow: 2px 2px 10px #FFFFFF;
+}
+
+.txtAtextosalida::placeholder {
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 2px 2px 10px red;
+    font-size: 18px;
+}
+
+.cuadrobaseLateral {
+    position: relative;
+    width: 250px;
+    height: 200px;
+    left: 50px;
+    top: 70px;
+}
+
+.btnCopiar {
+    text-align: center;
+    padding: 24px;
+    gap: 8px;
+    width: 100%;
+    height: 60px;
+    background: #000000;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+.btnCopiar:hover {
+    transform: scale(1.1);
+    transition: 400ms;
+}
+
+.footerPrincipal {
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 13px;
+    margin: 20px;
+}
+
+.imgVendor {
+    width: 40px;
+    height: 40px;
+}
+
+.imgVendor:hover{
+
+    transition: 400ms;
+    transform: scale(1.2) rotate(360deg);
+
+}
+
+.productos {
+    text-align: center;
+    background: linear-gradient(#FFFFFF, #BE0A18, #690812, #000000);
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.productos li {
+    text-align: center;
+    display: inline-block;
+    margin: 0;
+    border-radius: 10px;
+}
+
+
+
+/* Media Query */
+/* Si idenftitica un dispositivo con el ancho indicado "480px" va a agregar lo que se ponga dentro de @media */
+/* En este caso, si se abre desde un dispositivo con un maximo de 480px pintara de rojo el background */
+@media screen and (max-width:480px) {
+
+    h1 {
+        text-align: center;
+    }
+
+    .headerPrincipal,
+    .divPrincipal,
+    .formPrincipal,
+    .footerPrincipal {
+        width: auto;
+    }
+
+    .cuadroCentral,
+    .cuadroLateral{
+        width: 100%;
+        left: auto;
+        top: auto;
+    }
+}
